@@ -1,0 +1,19 @@
+{
+  "name": "pract1-paint-alejandrosburgos",
+  "version": "0.1.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PolitecnicoDAW/Pract1-Paint-AlejandroSBurgos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PolitecnicoDAW/Pract1-Paint-AlejandroSBurgos/issues"
+  },
+  "homepage": "https://github.com/PolitecnicoDAW/Pract1-Paint-AlejandroSBurgos#readme"
+}
