@@ -1,1 +1,2 @@
-const controller = new PaintController(new ViewController());
+const controller = new PaintController(new PaintView());
+controller.initEvents();

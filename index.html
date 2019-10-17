@@ -9,12 +9,56 @@
   </head>
   <body>
     <div id="container">
-      <canvas width="800px" height="400px"></canvas>
-      <div id="paintButtons"></div>
-      <div id="otherButtons"></div>
+      <canvas width="800px" height="400px" id="canvas"></canvas>
+      <div class="paint-buttons">
+        <p>
+          Default:
+          <input
+            type="radio"
+            class="inputPrint"
+            checked
+            name="inputPrint"
+            value="Default"
+          />
+        </p>
+        <p>
+          Circle:
+          <input
+            type="radio"
+            class="inputPrint"
+            value="Circle"
+            name="inputPrint"
+          />
+        </p>
+        <p>
+          Triangle:
+          <input
+            type="radio"
+            class="inputPrint"
+            value="Triangle"
+            name="inputPrint"
+          />
+        </p>
+        <p>
+          Square:
+          <input
+            type="radio"
+            class="inputPrint"
+            value="Square"
+            name="inputPrint"
+          />
+        </p>
+        <p>Color: <input type="color" id="inputColor" /></p>
+        <p>Size: <input type="number" id="inputSize" value="10" /></p>
+      </div>
+      <div class="other-buttons">
+        <button id="buttonClean">Clean</button>
+        <a id="buttonExport">Export</a>
+      </div>
     </div>
   </body>
-  <script src="views/view.controller.js"></script>
+  <script src="constants/view.constants.js"></script>
+  <script src="views/paint.view.js"></script>
   <script src="controllers/paint.controller.js"></script>
   <script src="app.js"></script>
 </html>
